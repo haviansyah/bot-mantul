@@ -25,7 +25,6 @@ jobs:
         host: ${{ secrets.FTP_SERVER }}
         user: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        localDir: "build"
         remoteDir: "public_html/bot_mantul"
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
